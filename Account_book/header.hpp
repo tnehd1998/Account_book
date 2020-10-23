@@ -2,6 +2,8 @@
 #include <iostream>
 #include <ctime>
 #include <list>
+#include <conio.h>
+
 using namespace std;
 
 class Record {
@@ -32,6 +34,6 @@ void deleteRecord(void);		//필요에 따라 입출력 자료형 변경
 
 /* categoryManage 함수 */
 void printCategoryList(list <string>);
-bool addCategoryList(list <string>);			//실패 시 True 반환
-bool modifyCategory(list <string>);				//실패 시 True 반환
-bool deleteCategory(list <string>,list <class Record>);		//실패 시 True 반환
+bool addCategoryList(list <string> *);			//실패 시 True 반환
+bool modifyCategory(list <string> *);				//실패 시 True 반환
+bool deleteCategory(list <string> *,list <class Record> *);		//실패 시 True 반환
