@@ -139,10 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="categoryManage.cpp" />
+    <ClCompile Include="checkData.cpp" />
+    <ClCompile Include="fileManage.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="recordManage.cpp" />
+    <ClCompile Include="znyi(temp).cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Category.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
